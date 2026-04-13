@@ -1,0 +1,11 @@
+[project]
+name = "hicp-weights-downloader"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=3.0.2",
+    "pyarrow>=23.0.1",
+    "requests>=2.33.1",
+    "sdmx1>=2.26.0",
+    "tenacity>=9.1.4",
+]
